@@ -32,7 +32,7 @@ class db_connection {
 	*/	
 		$sql = "INSERT INTO ".$this->tablename."(";
 		$sql .= implode(", ", array_flip($td_value_array));
-		$sql .= ") VALUES ( ";
+		$sql .= ") VALUES ( '";
 		$sql .= implode("','", $td_value_array);
 		$sql .= "')";
 		
