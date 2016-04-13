@@ -1,1 +1,3 @@
 version1: just architecture and popup and some default listing records
+
+version2: table sorting added (used jquery plugin tablesort, its very simple)
