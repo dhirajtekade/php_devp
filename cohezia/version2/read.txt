@@ -1,0 +1,4 @@
+plugin tablesort is very simple.
+just include and use given class and id for ur table and th for column. finally used given small jquery script.
+
+u may need to add some code to display mouse instead of cursor on the column field
